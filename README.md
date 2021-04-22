@@ -2,7 +2,7 @@
 
 ## Download
 * [Dataset](https://archive.ics.uci.edu/ml/datasets/WESAD+%28Wearable+Stress+and+Affect+Detection%29)
-* [Preprocessed data]()
+* [Preprocessed data](https://drive.google.com/drive/folders/1z-Z3NXj8qEX7f1UbTdZAOUdcj7Zgweke?usp=sharing)
 
 ## Requirements
 * Python 	     =3.7.9
@@ -17,38 +17,7 @@
 
 ## Code structure
 
-|
-|------Dataset
-|		|
-|		|--WESAD
-|			|
-|			|--S2.pkl
-|			|   .
-|			|	.
-|			|	.
-|			|--S17.pkl
-|
-|------logs
-|------output
-|		|
-|		|--tr_wesad_affect2.csv
-|		|--te_wesad_affect2.csv
-|
-|------PreprocessedData
-|		|
-|		|--wesad_dict.npy
-|
-|------weights
-|------logs_kfold
-|------output_kfold
-|------weights_kfold
-|
-|------data_preprocess.py
-|------model.py
-|------kfold.py
-|------DL.py
-|------utils.py
-|------wesad_model1/2/4/5/6.h5
+[](/img/structure.png)
 
 * logs/logs_kfold 	  : store the log files during training.
 * output/output_kfold   : store the performence evaluation files (tr means train performence, te:test)
