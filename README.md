@@ -17,7 +17,7 @@
 
 ## Code structure
 
-[](/img/structure.png)
+[](img/structure.png)
 
 * logs/logs_kfold 	  : store the log files during training.
 * output/output_kfold   : store the performence evaluation files (tr means train performence, te:test)
